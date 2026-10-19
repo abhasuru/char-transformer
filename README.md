@@ -15,16 +15,16 @@ Everything is scored by **validation loss**: the average cross-entropy (negative
 
 ## Results
 
-<!-- Fill in from results/ after running on Colab -->
-
 | Model | Val loss |
 |---|---:|
 | Uniform guess | 4.17 |
 | Counting bigram | 2.48 |
-| Neural bigram | ~2.50 |
-| Transformer (context 64, 4 layers, ~0.8M params) | _TODO_ |
+| Neural bigram | 2.49 |
+| Transformer (context 64, 4 layers, 817K params, 5000 steps) | **1.54** |
 
-Sample from the transformer: see `results/transformer/sample.txt`.
+Trained in about 100 seconds on an RTX 5070. Loss curve, attention maps and a text sample are in `results/transformer/`.
+
+![Training curve](results/transformer/loss_curve.png)
 
 ## Experiment: does more context help?
 
@@ -40,9 +40,14 @@ Sample from the transformer: see `results/transformer/sample.txt`.
 - *Val loss (all positions):* the usual average over every position in the window. Position 0 has only one character of context even in a 64-context model, so this average understates long-context models.
 - *Val loss (last position):* the loss only where the model has its full context. This is the cleanest measure of what N characters of context buys.
 
-<!-- Paste results/context_experiment/results.md here -->
+Mean ± std over 3 seeds, each trained for 3000 steps:
 
-_TODO: table_
+| context | val loss (all positions) | val loss (last position) | train loss | gap (val - train) | train time |
+|---:|---:|---:|---:|---:|---:|
+| 8 | 1.8153 ± 0.0058 | 1.6248 ± 0.0075 | 1.6551 ± 0.0007 | +0.1602 | 79s |
+| 16 | 1.6949 ± 0.0078 | 1.5767 ± 0.0107 | 1.5266 ± 0.0022 | +0.1684 | 67s |
+| 32 | 1.6263 ± 0.0055 | 1.5478 ± 0.0061 | 1.4466 ± 0.0016 | +0.1797 | 61s |
+| 64 | 1.6063 ± 0.0037 | 1.5809 ± 0.0035 | 1.4099 ± 0.0006 | +0.1964 | 59s |
 
 ![Validation loss vs context length](results/context_experiment/context_vs_loss.png)
 ![Loss by position](results/context_experiment/loss_by_position.png)
