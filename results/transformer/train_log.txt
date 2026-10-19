@@ -1,0 +1,41 @@
+device: cuda | parameters: 816,705
+step     0 | train 4.2011 | val 4.1994 | lr 1.00e-05 |    0.7s
+step   250 | train 2.1794 | val 2.2014 | lr 9.98e-04 |    6.0s
+step   500 | train 1.8957 | val 1.9844 | lr 9.85e-04 |   11.1s
+step   750 | train 1.7426 | val 1.8845 | lr 9.61e-04 |   16.2s
+step  1000 | train 1.6533 | val 1.8178 | lr 9.27e-04 |   21.3s
+step  1250 | train 1.5843 | val 1.7597 | lr 8.83e-04 |   26.4s
+step  1500 | train 1.5420 | val 1.7264 | lr 8.31e-04 |   31.5s
+step  1750 | train 1.5051 | val 1.6878 | lr 7.71e-04 |   36.6s
+step  2000 | train 1.4727 | val 1.6672 | lr 7.05e-04 |   41.7s
+step  2250 | train 1.4507 | val 1.6445 | lr 6.36e-04 |   46.8s
+step  2500 | train 1.4273 | val 1.6276 | lr 5.64e-04 |   51.9s
+step  2750 | train 1.4123 | val 1.6069 | lr 4.92e-04 |   57.0s
+step  3000 | train 1.3947 | val 1.5887 | lr 4.22e-04 |   62.1s
+step  3250 | train 1.3840 | val 1.5819 | lr 3.55e-04 |   67.2s
+step  3500 | train 1.3687 | val 1.5729 | lr 2.93e-04 |   72.3s
+step  3750 | train 1.3596 | val 1.5631 | lr 2.37e-04 |   77.3s
+step  4000 | train 1.3520 | val 1.5562 | lr 1.89e-04 |   82.4s
+step  4250 | train 1.3435 | val 1.5508 | lr 1.51e-04 |   87.5s
+step  4500 | train 1.3393 | val 1.5506 | lr 1.23e-04 |   92.6s
+step  4750 | train 1.3345 | val 1.5468 | lr 1.06e-04 |   97.7s
+step  5000 | train 1.3301 | val 1.5420 | lr 1.00e-04 |  102.8s
+
+final val loss: 1.5420
+saved to results/transformer/
+
+--- sample ---
+ROMEO:
+But is a should beam? and then fight it for the lost
+With the other's sun steal and all of great upon
+The world and more did most punishing with
+Which every nurses, a shorterous friends for the sitting
+With me.
+
+BUCKINGHAM:
+You look not the France of Clarence, my is lords,
+He hath received the enemy seated and parts the
+heavy gold of other speak the cloud of stands these beats;
+Profform him in me his life
+Be would live me, is your hands to us thy fearful summer
+With the victory, that Aufidius a

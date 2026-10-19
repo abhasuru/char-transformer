@@ -5,3 +5,4 @@ data/input.txt
 *.pt
 results/_*/
 .ipynb_checkpoints/
+.venv/

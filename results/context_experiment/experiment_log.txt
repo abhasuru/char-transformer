@@ -1,0 +1,118 @@
+device: cuda
+
+=== context 8 | seed 1 | batch 512 | params 809,537 ===
+step     0 | train 4.2149 | val 4.2188 | lr 1.00e-05 |    0.6s
+step   500 | train 1.9211 | val 2.0138 | lr 9.58e-04 |   13.6s
+step  1000 | train 1.7946 | val 1.9268 | lr 8.03e-04 |   26.3s
+step  1500 | train 1.7318 | val 1.8806 | lr 5.74e-04 |   38.9s
+step  2000 | train 1.6903 | val 1.8422 | lr 3.39e-04 |   51.7s
+step  2500 | train 1.6669 | val 1.8208 | lr 1.64e-04 |   64.4s
+step  3000 | train 1.6550 | val 1.8147 | lr 1.00e-04 |   77.2s
+
+=== context 8 | seed 2 | batch 512 | params 809,537 ===
+step     0 | train 4.2264 | val 4.2285 | lr 1.00e-05 |    0.5s
+step   500 | train 1.9270 | val 2.0170 | lr 9.58e-04 |   13.4s
+step  1000 | train 1.7935 | val 1.9373 | lr 8.03e-04 |   27.1s
+step  1500 | train 1.7298 | val 1.8777 | lr 5.74e-04 |   40.3s
+step  2000 | train 1.6914 | val 1.8586 | lr 3.39e-04 |   53.5s
+step  2500 | train 1.6669 | val 1.8305 | lr 1.64e-04 |   66.7s
+step  3000 | train 1.6559 | val 1.8252 | lr 1.00e-04 |   79.9s
+
+=== context 8 | seed 3 | batch 512 | params 809,537 ===
+step     0 | train 4.1773 | val 4.1765 | lr 1.00e-05 |    0.5s
+step   500 | train 1.9214 | val 2.0133 | lr 9.58e-04 |   13.8s
+step  1000 | train 1.7916 | val 1.9275 | lr 8.03e-04 |   27.0s
+step  1500 | train 1.7322 | val 1.8831 | lr 5.74e-04 |   40.3s
+step  2000 | train 1.6929 | val 1.8482 | lr 3.39e-04 |   53.6s
+step  2500 | train 1.6677 | val 1.8258 | lr 1.64e-04 |   66.8s
+step  3000 | train 1.6545 | val 1.8159 | lr 1.00e-04 |   80.0s
+
+=== context 16 | seed 1 | batch 256 | params 810,561 ===
+step     0 | train 4.2200 | val 4.2173 | lr 1.00e-05 |    0.4s
+step   500 | train 1.8662 | val 1.9667 | lr 9.58e-04 |   11.5s
+step  1000 | train 1.6996 | val 1.8445 | lr 8.03e-04 |   22.6s
+step  1500 | train 1.6207 | val 1.7883 | lr 5.74e-04 |   33.7s
+step  2000 | train 1.5711 | val 1.7387 | lr 3.39e-04 |   44.8s
+step  2500 | train 1.5414 | val 1.7174 | lr 1.64e-04 |   55.9s
+step  3000 | train 1.5273 | val 1.7078 | lr 1.00e-04 |   67.0s
+
+=== context 16 | seed 2 | batch 256 | params 810,561 ===
+step     0 | train 4.1935 | val 4.1901 | lr 1.00e-05 |    0.4s
+step   500 | train 1.8586 | val 1.9703 | lr 9.58e-04 |   11.5s
+step  1000 | train 1.7012 | val 1.8474 | lr 8.03e-04 |   22.6s
+step  1500 | train 1.6210 | val 1.7883 | lr 5.74e-04 |   33.8s
+step  2000 | train 1.5717 | val 1.7438 | lr 3.39e-04 |   44.9s
+step  2500 | train 1.5444 | val 1.7147 | lr 1.64e-04 |   56.1s
+step  3000 | train 1.5282 | val 1.7050 | lr 1.00e-04 |   67.3s
+
+=== context 16 | seed 3 | batch 256 | params 810,561 ===
+step     0 | train 4.2081 | val 4.2075 | lr 1.00e-05 |    0.4s
+step   500 | train 1.8587 | val 1.9579 | lr 9.58e-04 |   11.5s
+step  1000 | train 1.7006 | val 1.8429 | lr 8.03e-04 |   22.6s
+step  1500 | train 1.6181 | val 1.7803 | lr 5.74e-04 |   33.8s
+step  2000 | train 1.5703 | val 1.7382 | lr 3.39e-04 |   45.0s
+step  2500 | train 1.5395 | val 1.7059 | lr 1.64e-04 |   56.6s
+step  3000 | train 1.5241 | val 1.6947 | lr 1.00e-04 |   67.7s
+
+=== context 32 | seed 1 | batch 128 | params 812,609 ===
+step     0 | train 4.1969 | val 4.1971 | lr 1.00e-05 |    0.3s
+step   500 | train 1.8485 | val 1.9729 | lr 9.58e-04 |   10.5s
+step  1000 | train 1.6501 | val 1.8163 | lr 8.03e-04 |   20.7s
+step  1500 | train 1.5515 | val 1.7352 | lr 5.74e-04 |   30.9s
+step  2000 | train 1.4962 | val 1.6854 | lr 3.39e-04 |   41.1s
+step  2500 | train 1.4645 | val 1.6591 | lr 1.64e-04 |   51.3s
+step  3000 | train 1.4472 | val 1.6455 | lr 1.00e-04 |   61.4s
+
+=== context 32 | seed 2 | batch 128 | params 812,609 ===
+step     0 | train 4.1775 | val 4.1792 | lr 1.00e-05 |    0.3s
+step   500 | train 1.8461 | val 1.9707 | lr 9.58e-04 |   10.4s
+step  1000 | train 1.6474 | val 1.8379 | lr 8.03e-04 |   20.6s
+step  1500 | train 1.5537 | val 1.7456 | lr 5.74e-04 |   30.8s
+step  2000 | train 1.4963 | val 1.6866 | lr 3.39e-04 |   40.9s
+step  2500 | train 1.4607 | val 1.6550 | lr 1.64e-04 |   51.2s
+step  3000 | train 1.4449 | val 1.6418 | lr 1.00e-04 |   61.3s
+
+=== context 32 | seed 3 | batch 128 | params 812,609 ===
+step     0 | train 4.1721 | val 4.1676 | lr 1.00e-05 |    0.3s
+step   500 | train 1.8493 | val 1.9642 | lr 9.58e-04 |   10.5s
+step  1000 | train 1.6460 | val 1.8109 | lr 8.03e-04 |   20.8s
+step  1500 | train 1.5581 | val 1.7328 | lr 5.74e-04 |   31.0s
+step  2000 | train 1.4991 | val 1.6781 | lr 3.39e-04 |   41.1s
+step  2500 | train 1.4654 | val 1.6466 | lr 1.64e-04 |   51.4s
+step  3000 | train 1.4479 | val 1.6322 | lr 1.00e-04 |   61.7s
+
+=== context 64 | seed 1 | batch 64 | params 816,705 ===
+step     0 | train 4.2045 | val 4.2024 | lr 1.00e-05 |    0.3s
+step   500 | train 1.8968 | val 2.0031 | lr 9.58e-04 |   10.0s
+step  1000 | train 1.6503 | val 1.8415 | lr 8.03e-04 |   19.8s
+step  1500 | train 1.5341 | val 1.7283 | lr 5.74e-04 |   29.5s
+step  2000 | train 1.4724 | val 1.6690 | lr 3.39e-04 |   39.2s
+step  2500 | train 1.4296 | val 1.6288 | lr 1.64e-04 |   49.0s
+step  3000 | train 1.4104 | val 1.6081 | lr 1.00e-04 |   58.7s
+
+=== context 64 | seed 2 | batch 64 | params 816,705 ===
+step     0 | train 4.2098 | val 4.2077 | lr 1.00e-05 |    0.3s
+step   500 | train 1.8771 | val 1.9816 | lr 9.58e-04 |    9.9s
+step  1000 | train 1.6335 | val 1.7950 | lr 8.03e-04 |   19.8s
+step  1500 | train 1.5274 | val 1.7088 | lr 5.74e-04 |   29.5s
+step  2000 | train 1.4617 | val 1.6512 | lr 3.39e-04 |   39.6s
+step  2500 | train 1.4293 | val 1.6193 | lr 1.64e-04 |   49.4s
+step  3000 | train 1.4102 | val 1.6041 | lr 1.00e-04 |   59.1s
+
+=== context 64 | seed 3 | batch 64 | params 816,705 ===
+step     0 | train 4.2234 | val 4.2195 | lr 1.00e-05 |    0.3s
+step   500 | train 1.8953 | val 1.9934 | lr 9.58e-04 |   10.1s
+step  1000 | train 1.6460 | val 1.8207 | lr 8.03e-04 |   19.9s
+step  1500 | train 1.5311 | val 1.7214 | lr 5.74e-04 |   29.6s
+step  2000 | train 1.4651 | val 1.6667 | lr 3.39e-04 |   39.4s
+step  2500 | train 1.4288 | val 1.6274 | lr 1.64e-04 |   49.4s
+step  3000 | train 1.4092 | val 1.6120 | lr 1.00e-04 |   59.2s
+
+| context | val loss (all positions) | val loss (last position) | train loss | gap (val - train) | train time |
+|---:|---:|---:|---:|---:|---:|
+| 8 | 1.8153 ± 0.0058 | 1.6248 ± 0.0075 | 1.6551 ± 0.0007 | +0.1602 | 79s |
+| 16 | 1.6949 ± 0.0078 | 1.5767 ± 0.0107 | 1.5266 ± 0.0022 | +0.1684 | 67s |
+| 32 | 1.6263 ± 0.0055 | 1.5478 ± 0.0061 | 1.4466 ± 0.0016 | +0.1797 | 61s |
+| 64 | 1.6063 ± 0.0037 | 1.5809 ± 0.0035 | 1.4099 ± 0.0006 | +0.1964 | 59s |
+
+saved results and plots to results/context_experiment/
